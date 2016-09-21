@@ -1,21 +1,22 @@
 {
   "name": "ladingpage-wd41",
   "version": "1.0.0",
-  "description": "Landing page do curso WD41 focado em explicar melhor o funcionamento do curso",
+  "description": "Landing pages focado em explicar os cursos da Caelum de forma isolada e mais completa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MarcoBrunoBR/ladingPage-WD41.git"
+    "url": "git+ssh://git@github.com:MarcoBrunoBR/ladingPages.git"
   },
-  "author": "Desginer: Gui Lombardi FrontEnder: Marco Bruno",
+  "author": "Desginer: Gui Lombardi",
+  "author": "FrontEnder/UXer: Marco Bruno",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MarcoBrunoBR/ladingPage-WD41/issues"
+    "url": "https://github.com/MarcoBrunoBR/ladingPages/issues"
   },
-  "homepage": "https://github.com/MarcoBrunoBR/ladingPage-WD41#readme",
+  "homepage": "https://github.com/MarcoBrunoBR/ladingPages#readme",
   "dependencies": {
     "ejs": "^2.5.2",
     "express": "^4.14.0"
