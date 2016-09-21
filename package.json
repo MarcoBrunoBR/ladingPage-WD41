@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MarcoBrunoBR/ladingPage-WD41/issues"
   },
-  "homepage": "https://github.com/MarcoBrunoBR/ladingPage-WD41#readme"
+  "homepage": "https://github.com/MarcoBrunoBR/ladingPage-WD41#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
 }
