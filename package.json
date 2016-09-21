@@ -1,0 +1,19 @@
+{
+  "name": "ladingpage-wd41",
+  "version": "1.0.0",
+  "description": "Landing page do curso WD41 focado em explicar melhor o funcionamento do curso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MarcoBrunoBR/ladingPage-WD41.git"
+  },
+  "author": "Desginer: Gui Lombardi FrontEnder: Marco Bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoBrunoBR/ladingPage-WD41/issues"
+  },
+  "homepage": "https://github.com/MarcoBrunoBR/ladingPage-WD41#readme"
+}
