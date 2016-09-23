@@ -1,0 +1,43 @@
+.learning-title {
+    background-color:#404D60;
+    color: #FFF;
+}
+.learning-title:after {
+    background-color: #60D390;
+}
+.learning-menu {
+    font-size: 2em;
+    height: 4.107em;
+    color: #FFF;
+}
+    .learning-menu-item {
+        display: inline-block;
+        width: 36.25%;
+        height: 100%;
+    }
+    .learning-menu-item_center {
+        width: 27.5%;
+    }
+        .learning-menu-item-action {
+            display: block;
+            height: 100%;
+            line-height: 4.107em;
+            box-sizing: border-box;
+        }
+        .learning-menu-item-action_uxStrategy {
+            background-color: #7CDAAF;
+            text-align: right;
+            padding-right: 24.590%;
+        }
+        .learning-menu-item-action_uxUsability {
+            background-color: #7AB0DC;
+            text-align: center;
+            min-width: 184px;
+        }
+        .learning-menu-item-action_uxAnalysis {
+            background-color: #8985a7;
+            padding-left: 24.590%;
+        }
+        .learning-menu-item-action_isActive {
+            font-weight: 900;
+        }
