@@ -1,0 +1,39 @@
+.infoCourse {
+    overflow: hidden;
+    text-align: center;
+}
+    .infoCourse-item {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 25%;
+        font-size: 1.357em;
+        line-height: 1.157em;
+        height: 11.052em;
+        padding-bottom: 1.894em;
+    }
+    .infoCourse-item strong {
+        font-size: 3.421em;
+        line-height: 1em;
+        display: block;
+    }
+    .infoCourse-item_hours strong {
+        color: #6EB0AC;
+    }
+    .infoCourse-item_qtd strong {
+        color: #6DA8D6;
+    }
+    .infoCourse-item_hours,
+    .infoCourse-item_qtd {
+        padding-top: 3.4em;
+    }
+    .infoCourse-item_project,
+    .infoCourse-item_work {
+        padding-top: 6.842em;
+        background: #F8F8F8 no-repeat center 2.210em;
+    }
+    .infoCourse-item_project {
+        background-image: url('/image/iconProject.svg');
+    }
+    .infoCourse-item_work {
+        background-image: url('/image/iconWork.svg');
+    }
