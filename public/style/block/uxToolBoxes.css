@@ -1,3 +1,16 @@
-.uxToolBoxes {
-
+#uxStrategy {
+    background-color: #7CDAAF;
 }
+.uxToolBoxes {
+    box-sizing: border-box;
+    height: 56.428em;
+    padding-top: 4.285em;
+    padding-bottom: 4.285em;
+    text-align: center;
+}
+    .uxToolBoxes-title {
+        font-size: 2.571em;
+        line-height: 1em;
+        color: #FFF;
+        margin-bottom: 1em;
+    }
