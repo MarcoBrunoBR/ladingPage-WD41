@@ -1,0 +1,27 @@
+.downloadWorkbook {
+    box-sizing: border-box;
+    height: 18.571em;
+    padding-top: 3.214em;
+    padding-bottom: 3.214em;
+    background-color: #6DA8D6;
+    text-align: center;
+    color: #FFF;
+}
+    .downloadWorkbook-title {
+        font-size: 3.285em;
+        line-height: 1em;
+        margin-bottom: 0.111em;
+    }
+    .downloadWorkbook-subtitle {
+        font-size: 1.928em;
+        line-height: 1em;
+        font-weight: lighter;
+        margin-bottom: 1.481em;
+    }
+    .downloadWorkbook-callToAction {
+        color: #FFF;
+        border-color: #FFF;
+        text-transform: uppercase;
+        padding-right: 1.857em;
+        padding-left: 1.857em;
+    }
