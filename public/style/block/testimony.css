@@ -1,0 +1,33 @@
+.wrap-testimony {
+    text-align: center;
+}
+    .wrap-testimony-title:after {
+        background-color: #60D390;
+    }
+    .testimony {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid #EEE9E9;
+        width: 22.222%;
+        border-radius: 3px;
+        padding: 2em 1.855%;
+        font-size: 1.071em;
+    }
+    .testimony-photo {
+        margin-bottom: 1.857em;
+    }
+    .testimony-date {
+        font-weight: 300;
+    }
+    .testimony-date,
+    .testimony-comment {
+        margin-bottom: 1.8em;
+    }
+    .testimony-title {
+        color: #60d390;
+        font-size: 1.333em;
+        margin-bottom: .2em;
+    }
+    .testimony-role {
+        font-weight: 300;
+    }
