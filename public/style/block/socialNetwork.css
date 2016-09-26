@@ -1,0 +1,29 @@
+.socialNetwork-item {
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    background: no-repeat center center #CCC;
+    border-radius: 50%;
+}
+.socialNetwork-item:not(:last-child) {
+    margin-right: 0.6%;
+}
+.socialNetwork-item_blog {
+    background-image: url('/image/iconBlog.svg');
+}
+.socialNetwork-item_twitter {
+    background-image: url('/image/iconTwitter.svg');
+}
+.socialNetwork-item_linkedin {
+    background-image: url('/image/iconLinkedin.svg');
+}
+.socialNetwork-item_github {
+    background-image: url('/image/iconGithub.svg');
+}
+    .socialNetwork-item-action {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-indent: -9999px;
+        overflow: hidden;
+    }

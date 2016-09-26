@@ -1,0 +1,13 @@
+.sectionTeacher {
+    text-align: center;
+    background-color: #FAFBFE;
+    padding-bottom: 4.285em;
+}
+    .sectionTeacher-title:after {
+        background-color: #4B85F6;
+    }
+    .sectionTeacher-subtitle {
+        font-size: 1.714em;
+        font-weight: normal;
+        margin-bottom: 4.583em;
+    }

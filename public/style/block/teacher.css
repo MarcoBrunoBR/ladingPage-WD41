@@ -1,21 +1,54 @@
 .wrap-teacher {
-    text-align: center;
+    position: relative;
+    margin-right: 8.819%;
+    margin-left: 8.819%;
+    height: 567px;
 }
-    .wrap-teacher-title:after {
-        background-color: #4B85F6;
+    .wrap-teacher-arrowLeft,
+    .wrap-teacher-arrowRight {
+        background: no-repeat center center;
+        width: 13px;
+        height: 25px;
+        position: absolute;
+        top: 50%;
+        margin-top: -12.5px;
     }
-    .wrap-teacher-subtitle {
-        font-size: 1.714em;
-        font-weight: normal;
-        margin-bottom: 4.583em;
+    .wrap-teacher-arrowLeft {
+        background-image: url('/image/arrowLeft.svg');
+        left: 0;
     }
-
+    .wrap-teacher-arrowRight {
+        background-image: url('/image/arrowRight.svg');
+        right: 0
+    }
     .teacher {
         display: inline-block;
         box-shadow: 0 6px 20px 0 #C6C6C6;
-        width: 29.166%;
+        width: 35%;
         box-sizing: border-box;
-        position: relative;
+        position: absolute;
+        opacity: .3;
+        padding-bottom: 2.857em;
+        background-color: #FFF;
+        transform: scale(.85);
+    }
+    .teacher_isLeft {
+        z-index: 1;
+        left: 8%;
+        top: 5%;
+    }
+    .teacher_isActive {
+        opacity: 1;
+        z-index: 2;
+        left: 50%;
+        margin-left: -17.5%;
+        transform: scale(1);
+    }
+    .teacher_isRight {
+        z-index: 1;
+        left: 92%;
+        margin-left: -35%;
+        top: 5%;
     }
         .teacher-title {
             font-size: 1.857em;
