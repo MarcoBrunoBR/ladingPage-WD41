@@ -1,0 +1,46 @@
+.wrap-teacher {
+    text-align: center;
+}
+    .wrap-teacher-title:after {
+        background-color: #4B85F6;
+    }
+    .wrap-teacher-subtitle {
+        font-size: 1.714em;
+        font-weight: normal;
+        margin-bottom: 4.583em;
+    }
+
+    .teacher {
+        display: inline-block;
+        box-shadow: 0 6px 20px 0 #C6C6C6;
+        width: 29.166%;
+        box-sizing: border-box;
+        position: relative;
+    }
+        .teacher-title {
+            font-size: 1.857em;
+            line-height: 1em;
+            font-weight: bold;
+            margin-bottom: .307em;
+            padding-top: 3.653em;
+        }
+        .teacher-item_photo  {
+            transform: translateY(-50%);
+            position: absolute;
+            width: 100%;
+        }
+            .teacher-item_photo img {
+                border-radius: 50%;
+            }
+        .teacher-item_subtitle {
+            font-size: 1.5em;
+            line-height: 1em;
+            margin-bottom: 2.190em;
+        }
+        .teacher-item_description {
+            font-size: 1.071em;
+            line-height: 1.666em;
+            margin-bottom: 3em;
+            width: 88.5%;
+            display: inline-block;
+        }
