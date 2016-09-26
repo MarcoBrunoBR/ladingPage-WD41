@@ -1,0 +1,20 @@
+.signup {
+    background-color: #4F7CD3;
+    text-align: center;
+    color: #FFF;
+    padding: 4.142em 0;
+}
+    .signup-title {
+        font-size: 1.785em;
+        line-height: 1em;
+        font-weight: normal;
+        margin-bottom: 1.692em;
+    }
+    .signup-callToAction {
+        border-color: #FFF;
+        font-size: 1.428em;
+        color: inherit;
+        text-transform: uppercase;
+        padding-left: 1.15em;
+        padding-right: 1.15em;
+    }
