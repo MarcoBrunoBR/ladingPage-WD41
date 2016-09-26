@@ -1,0 +1,71 @@
+.wrap-handsOn {
+    text-align: center;
+}
+    .wrap-handsOn-title:after {
+        background-color: #60D390;
+    }
+    .wrap-handsOn-subtitle {
+        text-align: center;
+        font-size: 1.714em;
+        line-height: 1.208em;
+        font-weight: normal;
+    }
+    .wrap-handsOn-subtitle:nth-of-type(n+2) {
+        margin-bottom: 2em;
+    }
+    .wrap-handsOn-subtitle a {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .handsOn {
+        width: 28%;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+    }
+    .handsOn:not(:last-child) {
+        margin-right: .6%;
+    }
+        .handsOn-photo {
+            box-sizing: border-box;
+            width: 100%;
+            height: 323px;
+            background-color: #D8D8D8;
+            overflow: hidden;
+            margin-bottom: 1px;
+        }
+        .handsOn-item {
+            padding-left: 5.333%;
+            padding-right: 5.333%;
+        }
+        .handsOn-item_like {
+            border-top: 1px solid #E3E3E3;
+            border-right: 1px solid #E3E3E3;
+            border-left: 1px solid #E3E3E3;
+            font-weight: bold;
+            padding-top: .333em;
+            padding-bottom: .333em;
+        }
+        .handsOn-item_comment {
+            padding-bottom: 1em;
+        }
+        .handsOn-item_date {
+            padding-top: .5em;
+            padding-left: 13.793%;
+            padding-bottom: .5em;
+            background: url(/image/iconInstagram.svg) no-repeat 5.333% center;
+        }
+        .handsOn-item_comment,
+        .handsOn-item_date {
+            border-right: 1px solid #E3E3E3;
+            border-bottom: 1px solid #E3E3E3;
+            border-left: 1px solid #E3E3E3;
+        }
+        .handsOn-item_like,
+        .handsOn-item_comment {
+            font-size: 1.071em;
+        }
+            .handsOn-item-user {
+                font-weight: bold;
+            }
