@@ -1,5 +1,6 @@
 .wrap-testimony {
     text-align: center;
+    padding-bottom: 3.571em;
 }
     .wrap-testimony-title:after {
         background-color: #60D390;
@@ -13,9 +14,32 @@
         padding: 2em 1.855%;
         font-size: 1.071em;
     }
-    .testimony-photo {
-        margin-bottom: 1.857em;
+    .wrap-socialNetwork {
+        position: relative;
     }
+        .testimony-photo {
+            margin-bottom: 1.857em;
+        }
+        .testimony-socialNetwork {
+            background: no-repeat center center;
+            background-size: 100%;
+            width: 38px;
+            height: 38px;
+            position: absolute;
+            bottom: 5px;
+            right: 40px;
+        }
+        .testimony-socialNetwork_twitter {
+            background-image: url('/image/iconTwitter.svg');
+        }
+        .testimony-socialNetwork_linkedin {
+            background-image: url('/image/iconLinkedin.svg');
+        }
+            .testimony-socialNetwork-action {
+                display: block;
+                text-indent: -9999px;
+                overflow: hidden;
+            }
     .testimony-date {
         font-weight: 300;
     }
