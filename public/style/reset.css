@@ -15,3 +15,9 @@ a {
     text-decoration: inherit;
     color: inherit;
 }
+input, select, textarea {
+    color: inherit;
+    font-size: inherit;
+    background-color: #FFF;
+    font-family: inherit;
+}

@@ -1,0 +1,94 @@
+.wrap-contact {
+    background-color: #FAFBFE;
+    padding-bottom: 3.571em;
+}
+.wrap-contact-title:after {
+    background-color: #4B85F6;
+}
+.wrap-contact-subtitle {
+    text-align: center;
+    font-size: 1.714em;
+    font-weight: normal;
+    line-height: 1.208em;
+    margin-bottom: 3.541em;
+}
+.contact {
+    text-align: center;
+    color: #5A5A5A;
+}
+    .contact fieldset {
+        display: inline-block;
+        width: 500px;
+        vertical-align: top;
+        margin-right: 1%;
+        text-align: left;
+    }
+    .contact-label {
+        display: block;
+        font-size: 1.428em;
+        margin-bottom: .5em;
+    }
+    .contact-label_isDisabled,
+    .contact-textBox:disabled {
+        opacity: .4;
+    }
+    .contact-textBox {
+        font-size: 1.571em;
+        box-sizing: border-box;
+        width: 500px;
+        border: 1px solid #CACACA;
+        border-radius: 3px;
+        padding: 0 3.6%;
+        margin-bottom: 1.8em;
+        resize: vertical;
+    }
+    .contact-textBox_small {
+        height: 2.727em;
+    }
+        .contact-textBox_small option {
+            box-sizing: border-box;
+            color: inherit;
+            padding: 0.578em 3.6%;
+        }
+    textarea.contact-textBox {
+        height: 291px;
+        padding-top:0.578em;
+    }
+    .contact input[type=checkbox] {
+        display: none;
+    }
+    .contact-checkBox {
+        font-size: 1.571em;
+        margin-bottom: 1.8em;
+        margin-right: 3.8em;
+        display: inline-block;
+    }
+        .contact-checkBox:before {
+            content: '';
+            display: inline-block;
+            box-sizing: border-box;
+            border-radius: 3px;
+            height: 1.75em;
+            width: 1.75em;
+            border: 1px solid #CACACA;
+            vertical-align: middle;
+            margin-right: 0.5em;
+        }
+        input[type=checkbox]:checked + .contact-checkBox:before {
+            background-color: #4B85F6;
+        }
+        #phoneCheck:checked ~ [for=phone],
+        #phoneCheck:checked ~ #phone {
+            opacity: 1;
+        }
+        #emailCheck:checked ~ [for=email],
+        #emailCheck:checked ~ #email {
+            opacity: 1;
+        }
+    .contact-callToAction {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.416em 3em;
+        font-size: 1.714em;
+    }

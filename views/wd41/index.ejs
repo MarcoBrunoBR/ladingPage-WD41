@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/style/block/socialNetwork.css">
     <link rel="stylesheet" href="/style/block/signup.css">
     <link rel="stylesheet" href="/style/block/testimony.css">
+    <link rel="stylesheet" href="/style/block/contact.css">
 </head>
 <body>
     <header class="header">
@@ -330,28 +331,34 @@
     <article class="wrap-contact">
         <h1 class="wrap-contact-title title">Matrícula, dúvidas ou papo com o professor?</h1>
         <h2 class="wrap-contact-subtitle">
-            Preencha o formulário e nós entraremos em contato para finalizar a sua matrícula ou responder suas dúvidas
+            Preencha o formulário e nós entraremos em contato para finalizar a sua<br>matrícula ou responder suas dúvidas
         </h2>
 
         <form action="" class="contact">
             <fieldset>
                 <label for="name" class="contact-label">Nome</label>
-                <input type="text" id="name">
+                <input class="contact-textBox contact-textBox_small" type="text" id="name">
 
                 <label class="contact-label">Prefiro receber contato por</label>
-                <input type="checkbox">Telefone
-                <input type="checkbox">E-mail
 
-                <label for="email" class="contact-label">E-mail</label>
-                <input type="email" id="email">
+                <input type="checkbox" id="emailCheck">
+                <label for="emailCheck" class="contact-checkBox">E-mail</label>
 
-                <label for="telefone" class="contact-label">Telefone</label>
-                <input type="text" id="phone">
+                <input type="checkbox" id="phoneCheck">
+                <label class="contact-checkBox" for="phoneCheck">Telefone</label>
+
+                <label for="email" class="contact-label contact-label_isDisabled">E-mail</label>
+                <input class="contact-textBox contact-textBox_small" type="email" id="email" disabled>
+
+                <label for="phone" class="contact-label contact-label_isDisabled">Telefone</label>
+                <input class="contact-textBox contact-textBox_small" type="text" id="phone" disabled>
             </fieldset>
 
             <fieldset>
-                <label for="class" class="contact-label">Estou interessado na turma</label>
-                <select id="class">
+                <label for="class" class="contact-label">
+                    Estou interessado na turma
+                </label>
+                <select id="class" class="contact-textBox contact-textBox_small">
                     <option value="">29/08 a 09/09 Noturno (19h às 23h) São Paulo</option>
                     <option value="">29/08 a 09/09 Noturno (19h às 23h) São Paulo</option>
                     <option value="">29/08 a 09/09 Noturno (19h às 23h) São Paulo</option>
@@ -359,10 +366,10 @@
                 </select>
 
                 <label class="contact-label">Mensagem</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea class="contact-textBox" name="" id="" cols="30" rows="10"></textarea>
             </fieldset>
 
-            <input type="submit" class="callToAction" value="Enviar">
+            <input type="submit" class="contact-callToAction callToAction" value="Enviar">
         </form>
     </article>
 </body>
