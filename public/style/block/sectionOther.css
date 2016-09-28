@@ -1,0 +1,7 @@
+.sectionOther {
+    text-align: center;
+    padding-bottom: 4.642em;
+}
+    .sectionOther-title:after {
+        background-color: #6DA8D6;
+    }

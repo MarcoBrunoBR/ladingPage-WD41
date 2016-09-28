@@ -1,0 +1,77 @@
+.other {
+    box-sizing: border-box;
+    width: 27.777%;
+    border: 2px solid #6DA8D6;
+    font-size: 1.142em;
+    display: inline-block;
+    text-align: left;
+    padding-top: 2.25em;
+    overflow: hidden;
+    position: relative;
+}
+.other:first-of-type {
+    margin-right: 1%;
+}
+    .other:before {
+        content: url('/image/iconAgile.svg');
+        float: left;
+        margin-left: 6%;
+        margin-right: 10%;
+        display: block;
+        margin-top: 9px;
+    }
+    .other-title {
+        color: #6DA8D6;
+        margin-bottom: 0.9em;
+    }
+    .other-description {
+        border-bottom: 2px solid #6DA8D6;
+        padding-bottom: 2.25em;
+        padding-right: 14%;
+        line-height: 1.2em;
+    }
+    .other-hours {
+        border-right: 2px solid  #6DA8D6;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 28.75%;
+    }
+    .other-hours {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 0.866em;
+        padding: 1.461em 0 1.461em;
+    }
+        .other-hours strong {
+            color: #6DA8D6;
+            font-size: 2.307em;
+            font-weight: bold;
+            line-height: 1em;
+            display: block;
+        }
+    .other-nextDate {
+        display: inline-block;
+        text-align: center;
+        width: 71.25%;
+    }
+    .other-action {
+        position: absolute;
+        bottom: -90px;
+        width: 100%;
+        height: 90px;
+        line-height: 90px;
+        color: #FFF;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #6DA8D6;
+        font-size: 1.125em;
+        font-weight: medium;
+    }
+        .other-action a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    .other:hover .other-action {
+        bottom: 0;
+    }
