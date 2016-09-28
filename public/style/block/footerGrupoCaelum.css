@@ -1,0 +1,26 @@
+.footerGrupoCaelum {
+    padding: 1em 8.819% 0;
+    border-top: 1px solid #CACACA;
+}
+    .footerGrupoCaelum-item {
+        text-align: justify;
+        width: 100%;
+    }
+    .footerGrupoCaelum-item:after {
+        content: '';
+        width: 100%;
+        display: inline-block;
+    }
+        .footerGrupoCaelum-item-action {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .wrap-footerGrupoCaelum-item-company {
+            display: inline-block;
+            text-align: right;
+        }
+            .footerGrupoCaelum-item-company {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 2.142em;
+            }

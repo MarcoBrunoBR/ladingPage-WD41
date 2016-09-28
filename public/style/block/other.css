@@ -56,7 +56,6 @@
     }
     .other-action {
         position: absolute;
-        bottom: -90px;
         width: 100%;
         height: 90px;
         line-height: 90px;
@@ -65,7 +64,9 @@
         text-transform: uppercase;
         background-color: #6DA8D6;
         font-size: 1.125em;
-        font-weight: medium;
+        font-weight: 300;
+        letter-spacing: 0.12em;
+        transform: translateY(0);
     }
         .other-action a {
             display: block;
@@ -73,5 +74,5 @@
             height: 100%;
         }
     .other:hover .other-action {
-        bottom: 0;
+        transform: translateY(-100%);
     }

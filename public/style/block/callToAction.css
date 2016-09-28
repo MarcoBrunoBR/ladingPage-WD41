@@ -1,8 +1,9 @@
 .callToAction {
     display: inline-block;
     padding: 0.714em 0.857em;
-    border: 1px solid #4B85F6;
+    border: 2px solid #4B85F6;
     color: #4B85F6;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 300;
 }
