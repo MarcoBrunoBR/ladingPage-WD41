@@ -67,6 +67,11 @@
         font-weight: 300;
         letter-spacing: 0.12em;
         transform: translateY(0);
+        transition: transform .2s linear,
+                    background .2s linear;
+    }
+    .other-action:hover {
+        background-color: #4B85F6;
     }
         .other-action a {
             display: block;

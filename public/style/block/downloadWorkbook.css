@@ -26,3 +26,9 @@
         padding-right: 1.083em;
         padding-left: 1.083em;
     }
+    .downloadWorkbook-callToAction:hover {
+        color: #6DA8D6;
+    }
+    .downloadWorkbook-callToAction:before {
+        background-color: #FFF;
+    }

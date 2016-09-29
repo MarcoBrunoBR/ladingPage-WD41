@@ -27,6 +27,7 @@
         display: block;
         font-size: 1.428em;
         margin-bottom: .5em;
+        transition: opacity .2s linear;
     }
     .contact-label_isDisabled,
     .contact-textBox:disabled {
@@ -41,6 +42,7 @@
         padding: 0 3.6%;
         margin-bottom: 1.8em;
         resize: vertical;
+        transition: opacity .2s linear;
     }
     .contact-textBox_small {
         height: 2.727em;
@@ -62,6 +64,7 @@
         margin-bottom: 1.8em;
         margin-right: 3.8em;
         display: inline-block;
+        cursor: pointer;
     }
         .contact-checkBox:before {
             content: '';
@@ -72,7 +75,9 @@
             width: 1.75em;
             border: 1px solid #CACACA;
             vertical-align: middle;
-            margin-right: 0.5em;
+            margin-right: .5em;
+            background-color: #FFF;
+            transition: background-color .2s linear;
         }
         input[type=checkbox]:checked + .contact-checkBox:before {
             background-color: #4B85F6;
@@ -89,7 +94,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding: 0.416em 3em;
+        padding: .416em 3em;
         font-size: 1.714em;
         color: #4B85F6;
     }

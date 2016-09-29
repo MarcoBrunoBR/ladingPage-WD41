@@ -1,6 +1,7 @@
 .header {
     padding: 2.714em 8.819% 1.3em;
     text-align: justify;
+    font-size: 13px;
 }
 .header:after {
     content: '';
@@ -15,15 +16,20 @@
     }
         .header-menu-item {
             display: inline;
-            padding-left: 1.428em;
-            padding-right: 1.428em;
-            border-right: 2px solid #333;
+            margin-right: 1.2em;
             text-transform: uppercase;
             text-decoration: none;
+            position: relative;
+            transition: color .2s linear;
+            letter-spacing: 1px;
+        }
+        .header-menu-item:hover {
+            color: #4B85F6;
         }
         .header-menu-item_download {
             color: #858585;
             border-right: none;
+            margin-right: 1.6em;
         }
         .header-menu-item_callToAction {
             border-right: none;
