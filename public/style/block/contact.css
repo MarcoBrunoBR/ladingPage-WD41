@@ -42,7 +42,15 @@
         padding: 0 3.6%;
         margin-bottom: 1.8em;
         resize: vertical;
-        transition: opacity .2s linear;
+        transition: opacity .2s linear,
+                    border-color .2s linear;
+    }
+    .contact-textBox:hover,
+    .contact-textBox:focus {
+        border-color: #4B85F6;;
+    }
+    .contact-textBox:focus {
+        border-width: 2px
     }
     .contact-textBox_small {
         height: 2.727em;
