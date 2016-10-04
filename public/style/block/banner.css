@@ -1,8 +1,13 @@
 .banner {
+    margin-top: 8.285em;
     padding-top: 7.714em;
     padding-bottom: 7.714em;
     text-align: center;
     background-color: #F5F5F5;
+    transition: margin-top .3s linear;
+}
+.isAnimationTop .banner {
+    margin-top: 5.5em;
 }
     .banner-title {
         font-weight: bold;
