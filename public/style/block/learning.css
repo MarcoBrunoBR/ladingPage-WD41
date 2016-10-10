@@ -24,6 +24,7 @@
             line-height: 4.107em;
             box-sizing: border-box;
             position: relative;
+            overflow: hidden;
         }
         .learning-menu-item-action_uxStrategy {
             background-color: #7CDAAF;
@@ -39,23 +40,30 @@
             background-color: #8985a7;
             padding-left: 24.590%;
         }
-            .learning-menu-item-action_isActive:before {
+            .learning-menu-item-action:before {
                 content: '';
                 border-top: 8px solid #404D60;
                 border-right: 8px solid transparent;
                 border-bottom: 8px solid transparent;
                 border-left: 8px solid transparent;
                 position: absolute;
+                transform: translateY(-8px);
+                opacity: 0;
+                transition: transform .2s linear, opacity .3s linear;
             }
-            .learning-menu-item-action_uxStrategy.learning-menu-item-action_isActive:before {
+            .learning-menu-item-action_isActive:before {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+            .learning-menu-item-action_uxStrategy.learning-menu-item-action:before {
                 left: 58%;
                 margin-left: -8px;
             }
-            .learning-menu-item-action_uxUsability.learning-menu-item-action_isActive:before {
+            .learning-menu-item-action_uxUsability.learning-menu-item-action:before {
                 left: 50%;
                 margin-left: -8px;
             }
-            .learning-menu-item-action_uxAnalysis.learning-menu-item-action_isActive:before {
+            .learning-menu-item-action_uxAnalysis.learning-menu-item-action:before {
                 left: 41%;
                 margin-left: -8px;
             }
