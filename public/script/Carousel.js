@@ -8,7 +8,8 @@ var Carousel = (function ($itens) {
     module._$left = module._$itens[0];
     module._$active = module._$itens[1];
     module._$right = module._$itens[2];
-    module._indexActive = 1;
+    module._indexLeft = 0;
+    module._indexRight = 2;
 
     module._removeAddClass = function ($element, remove, add) {
         $element.classList.remove(remove);
@@ -23,33 +24,39 @@ var Carousel = (function ($itens) {
     }
 
     module.moveLeft = function () {
-        if (module._indexActive == module._$itens.length - 2) {
-            module._indexActive = 0;
-        } else {
-            module._indexActive++;
-        };
-
         module._$left.classList.remove('teacher_isLeft');
 
         module._$left = module._removeAddClass(module._$active, 'teacher_isActive', 'teacher_isLeft');
         module._$active = module._removeAddClass(module._$right, 'teacher_isRight', 'teacher_isActive');
 
-        module._$right = module._addClass(module._$itens[module._indexActive + 1], 'teacher_isRight');
+        if (module._indexLeft == module._$itens.length - 1) {
+            module._indexLeft = -1;
+        };
+
+        if (module._indexRight == module._$itens.length - 1) {
+            module._indexRight = -1;
+        };
+
+        module._$right = module._addClass(module._$itens[++module._indexRight], 'teacher_isRight');
+        module._indexLeft++;
     };
 
     module.moveRight = function () {
-        if (module._indexActive == 1) {
-            module._indexActive = module._$itens.length;
-        } else {
-            module._indexActive--;
-        };
-
         module._$right.classList.remove('teacher_isRight');
 
         module._$right = module._removeAddClass(module._$active, 'teacher_isActive', 'teacher_isRight');
         module._$active = module._removeAddClass(module._$left, 'teacher_isLeft', 'teacher_isActive');
 
-        module._$left = module._addClass(module._$itens[module._indexActive - 1], 'teacher_isLeft');
+        if (module._indexLeft == 0) {
+            module._indexLeft = module._$itens.length;
+        };
+
+        if (module._indexRight == 0) {
+            module._indexRight = module._$itens.length;
+        };
+
+        module._$left = module._addClass(module._$itens[--module._indexLeft], 'teacher_isLeft');
+        module._indexRight--;
     };
 
     return {
